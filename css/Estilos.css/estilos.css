@@ -1,0 +1,36 @@
+.MenuCabezera{
+    background-color: #BE1622;
+    width: 100%;
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .banner{
+    background-color: #1D70B8;
+    width: 100%;
+    height: 120pX;
+    }
+    .CajaColumnas{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    .Columnas{
+        flex: 1; 
+        background-color: #F0F0F0;
+        border: indigo;
+        text-align: center;
+    }
+    .colrverde{
+        background-color: green;
+    }
+    .ColorNaranja{
+        background-color: orange;
+    }
+    .colorIndigo{
+        background-color: indigo;
+    }
