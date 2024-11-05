@@ -34,3 +34,8 @@
     .colorIndigo{
         background-color: indigo;
     }
+    .final{
+        background-color: rgb(255, 9, 9);
+        width: 100%;
+        height: 120PX;
+    }
