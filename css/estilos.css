@@ -1,5 +1,5 @@
 .MenuCabezera{
-    background-color: #BE1622;
+    background-color: #A4CDD7;
     width: 100%;
     }
     *{
@@ -8,9 +8,13 @@
     }
     
     .banner{
-    background-color: #1D70B8;
+
+    background-image: url("../imagenes/educación.jpg");
     width: 100%;
-    height: 120pX;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:40%;
     }
     .CajaColumnas{
         display: flex;
@@ -39,3 +43,29 @@
         width: 100%;
         height: 120PX;
     }
+    .menuSuperior li{
+        display: inline;
+        padding: 10px;
+        border-right: solid 2px black;
+    }
+    .menuSuperior{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: right;
+        padding: 20px;
+       
+    }
+    .menuSuperior li a:hover{
+        color: #e2430c;  
+        background-color: #5B77EC ;  
+        text-decoration: underline;
+    }
+    li a  {
+        text-decoration: none;
+    }
+    .menuSuperior li:last-child{
+        border-right: none;
+    }
+
+
+   
