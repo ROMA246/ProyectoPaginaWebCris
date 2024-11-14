@@ -42,6 +42,7 @@
         background-color:#1B8EBC;
         width: 100%;
         height: 120PX;
+        
     }
     .menuSuperior li{
         display: inline;
@@ -57,7 +58,7 @@
     }
     .menuSuperior li a:hover{
         color: #e2430c;  
-        background-color: #5B77EC ;  
+         
         text-decoration: underline;
     }
     li a  {
@@ -77,14 +78,32 @@
 form{
     padding: 15px;
 }
-input{
+input[type=text]{
     width: 100%;
     padding: 5px;
     border-radius: 5px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(20, 200, 30, 0.5);
+    padding: 10px;
+    color: black;
+    
+}
+input[type=submit]:hover{
+    background-color: rgb(20, 200, 30, 1);
+    cursor: pointer;
 }
 textarea{
     width: 100%;
     height: 120px;
 }
-
-   
+li a img{
+    width: 28px;
+}
+li a img:hover{
+    opacity: 30%;
+}
+.derechos{
+    padding: 15px;
+}
