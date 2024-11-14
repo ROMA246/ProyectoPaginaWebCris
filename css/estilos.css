@@ -47,6 +47,9 @@
     .menuSuperior li{
         display: inline;
         padding: 10px;
+     
+    }
+    .borderDerecho li{
         border-right: solid 2px black;
     }
     .menuSuperior{
@@ -87,8 +90,7 @@ input[type=submit]{
     width: 100%;
     background-color: rgb(20, 200, 30, 0.5);
     padding: 10px;
-    color: black;
-    
+    color: black;   
 }
 input[type=submit]:hover{
     background-color: rgb(20, 200, 30, 1);
